@@ -37,6 +37,15 @@
   height: 7em;
 }
 
+.buttonCont{
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  font-size: 0.8em;
+  justify-self: end;
+  padding-top: 1em;
+}
+
 .cardButton {
   display: flex;
   justify-content: center;
@@ -56,4 +65,8 @@
 .cardButton:hover {
   color: #fff;
   background-color: #912f4b;
+}
+
+a {
+  cursor: pointer;
 }
