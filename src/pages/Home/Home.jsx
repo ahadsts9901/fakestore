@@ -17,17 +17,15 @@ const Home = () => {
 
   return (
     <>
-      <div style={{ padding: "3em" }}></div>
+      <div style={{padding:"3em"}}></div>
       <div className="productsCont">
         {products ? (
           products.map((product, index) => (
             <Card
-              key={index}
               image={product.image}
               price={product.price}
               description={product.description}
               title={product.category}
-              id={product.id}
             />
           ))
         ) : (
